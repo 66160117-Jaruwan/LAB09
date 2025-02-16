@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-/* ตั้งค่าพื้นฐานของหน้าเว็บ */
-=======
-/* Global Styles */
->>>>>>> feature/user-detail
 body {
     background-color: #f4f4f4;
     margin: 0;
@@ -10,11 +5,6 @@ body {
     text-align: center;
 }
 
-<<<<<<< HEAD
-/* กำหนดสไตล์ของ container */
-=======
-/* Container Styles */
->>>>>>> feature/user-detail
 .container {
     max-width: 600px;
     margin: auto;
@@ -22,16 +12,6 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-<<<<<<< HEAD
-}
-
-/* สไตล์หัวข้อ */
-h1 {
-    color: #333;
-}
-
-/* กำหนดสไตล์ของรายการผู้ใช้ */
-=======
     font-size: 16px;
 }
 
@@ -47,16 +27,11 @@ h2 {
 }
 
 /* User List Styles */
->>>>>>> feature/user-detail
 .user-list {
     margin-top: 20px;
     text-align: left;
 }
 
-<<<<<<< HEAD
-/* กำหนดสไตล์ของแต่ละ user-item */
-=======
->>>>>>> feature/user-detail
 .user-item {
     background: #fff;
     padding: 10px;
@@ -66,7 +41,6 @@ h2 {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-<<<<<<< HEAD
 /* ปรับแต่งให้ชื่อผู้ใช้เด่นขึ้น */
 .user-item strong {
     display: block;
@@ -78,7 +52,7 @@ h2 {
 .user-item span {
     color: #555;
     font-size: 14px;
-=======
+}
 .user-item strong {
     display: block;
     color: #007bff;
@@ -140,5 +114,4 @@ h2 {
     display: block;
     text-align: left;
     margin-left: 0;
->>>>>>> feature/user-detail
 }
