@@ -1,0 +1,164 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Typography */
+h1, h2 {
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* User List Styles */
+.user-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.user-item {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ปรับแต่งให้ชื่อผู้ใช้เด่นขึ้น */
+.user-item strong {
+    display: block;
+    color: #007bff;
+    font-size: 16px;
+}
+
+/* สไตล์ของอีเมล */
+.user-item span {
+    color: #555;
+    font-size: 14px;
+}
+
+.user-item strong {
+    display: block;
+    color: #007bff;
+    font-size: 20px;
+}
+
+.user-item span {
+    color: #555;
+    font-size: 18px;
+}
+
+/* User Detail Styles */
+.user-detail {
+    text-align: left;
+}
+
+.user-detail strong {
+    display: block;
+    color: #007bff;
+    font-size: 20px;
+    margin-top: 10px; /* ลดระยะห่างบน */
+    line-height: 0.4cm;
+}
+
+.user-detail p {
+    font-size: 18px; /* ลดขนาดฟอนต์เล็กลง */
+    padding: 5px; /* ปรับค่าการ padding ให้พอดี */
+    margin: 10px 0 5px; /* ปรับค่า margin ให้ไม่ห่างมาก */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* line-height: 0.5cm; */
+}
+
+
+/* ปุ่มดูโพสต์ */
+.view-posts-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.view-posts-btn:hover {
+    background-color: #0056b3;
+}
+
+/* ปุมกลับ */
+.back-button {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: left;
+    margin-left: 0;
+}
+
+/* ปรับแต่งสไตล์โพสต์ */
+.post-item {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    text-align: left;
+}
+
+.post-item h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.post-item p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.post-item .comment-btn {
+    background-color: #5481b1;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.post-item .comment-btn:hover {
+    background-color: #48719c;
+}
+
+/* สไตล์สำหรับเมื่อไม่มีโพสต์ */
+.posts-list p {
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+}
