@@ -19,4 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(error => console.error("Error fetching user details:", error));
     }
+<<<<<<< HEAD
+=======
+    document.getElementById("view-posts").addEventListener("click", () => {
+        if (userId) {
+          window.location.href = `user-posts.html?userId=${userId}`;
+        }
+      });
+>>>>>>> feature/user-posts
 });
